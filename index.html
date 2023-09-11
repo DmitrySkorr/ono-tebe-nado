@@ -11,21 +11,23 @@
   </head>
   <body>
     <header>
-      <nav class="header__menu" id="block0">
-        <a href="#block0" class="header__menu__element header_main">главная</a>
+      <nav id="block0">
         <ul class="header__menu">
-          <li>
-              <a href="#block1" class="header__menu__element">посмотреть лоты</a>
+          <li class="li_menu">
+            <a href="#block0" class="header_main">главная</a>
           </li>
-          <li>
-              <a href="#block2" class="header__menu__element">об аукционе</a>
+          <li class="li_menu">
+            <a href="#block1">посмотреть лоты</a>
+          </li>
+          <li class="li_menu">
+            <a href="#block2">об аукционе</a>
           </li>
         </ul>
       </nav>
-      <a class="header__logo"
+      <a class="header__logo" href="#"
         ><img src="./images/logo-black.svg" alt="оно тебе надо?"
       /></a>
-      <div class="address__container">
+      <div class="header_address__container">
         <address class="adresses">
           <a href="tel:+99995555555">+9 999 555 5555</a>
           <a href="mailto:info@sobaka.ge">info@sobaka.ge</a>
@@ -57,9 +59,7 @@
               <p class="text_before_button">
                 Аукцион вещей, в которые никто не верил
               </p>
-              <button class="button_after_text button_reset">
-                Сделать ставку
-              </button>
+              <button class="button_after_text">Сделать ставку</button>
             </div>
           </div>
         </div>
@@ -68,7 +68,7 @@
       <section class="lots_main" id="block1">
         <h2 class="lots_title">Лоты</h2>
         <div class="lots_container">
-          <a class="a_lots" href="">
+          <a class="a_lots" href="#">
             <div class="lots1 lots">
               <div class="overlay"></div>
               <h3 class="lots_h">Фильм режиссёра, который бросил киношколу</h3>
@@ -78,7 +78,7 @@
               </p>
             </div>
           </a>
-          <a class="a_lots" href="">
+          <a class="a_lots" href="#">
             <div class="lots2 lots">
               <div class="overlay"></div>
               <h3 class="lots_h">
@@ -94,7 +94,7 @@
               </p>
             </div>
           </a>
-          <a class="a_lots" href="">
+          <a class="a_lots" href="#">
             <div class="lots3 lots">
               <div class="overlay"></div>
               <h3 class="lots_h">
@@ -109,11 +109,7 @@
             </div>
           </a>
         </div>
-        <a
-          href="https://music.yandex.ru/iframe/#playlist/ynx-praktikum/1002"
-          class="see_more"
-          >посмотреть больше</a
-        >
+        <a href="#block1" class="see_more">посмотреть больше</a>
       </section>
       <section class="about_section" id="block2">
         <div class="column_logo">
@@ -123,27 +119,24 @@
           <h2 class="about_h">Об аукционе</h2>
           <p class="about_p">
             Здесь вы не встретите очередное пафосное собрание невероятно
-            дорогого антиквариата.
-            Наши лоты вообще не должны были попасть ни на один аукцион. Потому
-            что кому нужен дневник девочки-подростка или картина, которую
-            может нарисовать даже ребёнок? Кому нужны все эти странные
-            вещи, созданные любителями?
+            дорогого антиквариата. Наши лоты вообще не должны были попасть ни на
+            один аукцион. Потому что кому нужен дневник девочки-подростка или
+            картина, которую может нарисовать даже ребёнок? Кому нужны все эти
+            странные вещи, созданные любителями?
           </p>
           <p class="about_p">
             Слишком сложные или, наоборот, слишком простые. Опережающие своё
-            время. В пух и прах растерзанные критиками. Непринятые и
-            непонятые. Когда-то они казались просто неудачными. Но,
-            несмотря на критику, кажущуюся простоту или сложность, сейчас без
-            этих лотов невозможно представить современную культуру. Когда в эти
-            вещи не верил
-            никто, продолжали верить их создатели. И сейчас эти лоты стали
-            культовыми.
+            время. В пух и прах растерзанные критиками. Непринятые и непонятые.
+            Когда-то они казались просто неудачными. Но, несмотря на критику,
+            кажущуюся простоту или сложность, сейчас без этих лотов невозможно
+            представить современную культуру. Когда в эти вещи не верил никто,
+            продолжали верить их создатели. И сейчас эти лоты стали культовыми.
           </p>
         </div>
       </section>
     </main>
     <footer class="footer">
-      <div class="address__container">
+      <div>
         <address class="adresses">
           <a href="tel:+70000000">+9 999 555 5555</a>
           <a href="mailto:mail@example.com">info@sobaka.ge</a>
@@ -168,9 +161,15 @@
         </nav>
       </div>
       <div class="footer_socials">
-        <a class="footer_img"><img src="./images/yt.svg" alt="логотип ютуб" /></a>
-        <a class="footer_img"><img src="./images/vk.svg" alt="логотип вк"/></a>
-        <a class="footer_img"><img src="./images/pinterest.svg" alt="логотип пинтерест"/></a>
+        <a href="#" class="footer_img"
+          ><img src="./images/yt.svg" alt="логотип ютуб"
+        /></a>
+        <a href="#" class="footer_img"
+          ><img src="./images/vk.svg" alt="логотип вк"
+        /></a>
+        <a href="#" class="footer_img"
+          ><img src="./images/pinterest.svg" alt="логотип пинтерест"
+        /></a>
       </div>
     </footer>
     <!--<img src="./images/ononadoimage.jpg" class="pixel-perfect-image" />;-->
