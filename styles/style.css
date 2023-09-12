@@ -35,14 +35,14 @@ header {
   align-items: center;
   text-underline-offset: 5px;
 }
+.header_main_non-circle {
+  list-style-type: none;
+}
 .li_menu {
   margin-right: 32px;
 }
 .li_menu:last-child {
   margin-right: 0;
-}
-.li_menu:first-child {
-  list-style: none;
 }
 .header_main {
   text-decoration: none;
